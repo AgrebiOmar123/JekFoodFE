@@ -16,9 +16,9 @@
                  </h5>
                  <p class="card-text"><i class="bi bi-geo-alt-fill"></i> {{restaurant.address}} </p>
                  <p class="card-text"><i class="bi bi-telephone-fill"></i> {{restaurant.phone}}</p>
-                 <button routerLink="/menu" class="btn-book-a-table "><i class="bi bi-journal-text"></i>  View Menu</button>
+                 <button [routerLink]="['/menu/', restaurant.id]" class="btn-book-a-table "><i class="bi bi-journal-text"></i>  View Menu</button>
                 
-                  
+                 
                </div>
             </div>
             

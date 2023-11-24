@@ -16,6 +16,7 @@ import { OrderComponent } from './order/order.component';
 import { FooterComponent } from './footer/footer.component';
 import { ReservationComponent } from './reservation/reservation.component';
 import { BarRatingModule } from "ngx-bar-rating";
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { BarRatingModule } from "ngx-bar-rating";
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BarRatingModule
+    BarRatingModule,
+    HttpClientModule
    
   ],
   providers: [],

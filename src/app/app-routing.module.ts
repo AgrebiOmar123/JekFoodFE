@@ -12,7 +12,7 @@ import { RestaurantsComponent } from './restaurants/restaurants.component';
 const routes: Routes = [
   {path:'',component:HomeComponent},
   {path:'restaurants',component:RestaurantsComponent},
-  {path:'menu',component:MenuComponent},
+  {path:'menu/:id',component:MenuComponent},
   {path:'chefs',component:ChefsComponent},
   {path:'gallery',component:GalleryComponent},
   {path:'contact',component:ContactComponent},
